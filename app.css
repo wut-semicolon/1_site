@@ -98,6 +98,8 @@ header h4 {
 
 
 
+
+
 .container1 {
     background-image: url("images/peopleside.jpg");
     background-color: #cccccc;
@@ -219,13 +221,54 @@ h1 {
     }
 }
 
-@media(max-width:850) {
+
+@media(max-width:850px) {
+    .last_email {
+        color: #ffc105;
+    }
+
+   
+}
+
+@media(max-width:500px) {
     .circle {
         display: none;
         margin: 0 auto;
     }
+
     .symbol {
         display: none;
         margin: 0 auto;
     }
+
+    .last_email {
+        color: #ffc105;
+    }
 }
+
+@media(max-width:280px) {
+    .content {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .text {
+        font-size: 1.5em;
+    }
+
+    .sm {
+        font-size: 1em;
+    }
+
+    .social {
+        width: 35px;
+        height: 35px;
+        padding: 0.25em;
+    }
+
+    .last_email {
+        color: #ffc105;
+    }
+}
+
