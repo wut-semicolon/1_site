@@ -132,7 +132,7 @@ header h4 {
     height: 60px;
     border-radius: 50%;
     background-color: rgb(232, 221, 12);
-    box-shadow: 0 0 6px 3px rgb(249, 249, 26), 0 0 10px 6px #eeff00, 0 0 14px 9px #fafafa;
+    /* box-shadow: 0 0 6px 3px rgb(249, 249, 26), 0 0 10px 6px #eeff00, 0 0 14px 9px #fafafa; */
 }
 
 
